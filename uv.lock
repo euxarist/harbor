@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -377,9 +377,9 @@ dependencies = [
     { name = "requests" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ca/c0/53d1c184c2851e77df57572629b4d9af0d90f2c914a0e23387034027e151/beam_client-0.2.211.tar.gz", hash = "sha256:8ca975ce814ada1100d737764024c7f489ac05a72cba3265517ee6452ff7daed", size = 7225 }
+sdist = { url = "https://files.pythonhosted.org/packages/ca/c0/53d1c184c2851e77df57572629b4d9af0d90f2c914a0e23387034027e151/beam_client-0.2.211.tar.gz", hash = "sha256:8ca975ce814ada1100d737764024c7f489ac05a72cba3265517ee6452ff7daed", size = 7225, upload-time = "2026-09-15T18:10:39.718Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/58/7de080c27aec3dbf6d41d9f3f434ee4917a5fabe6449adcb059501337e53/beam_client-0.2.211-py3-none-any.whl", hash = "sha256:ffa8c9bb086d85ad1bff07bf8ebde65d5e122a4df1469d1aec56598ddf44c561", size = 10935 },
+    { url = "https://files.pythonhosted.org/packages/2e/58/7de080c27aec3dbf6d41d9f3f434ee4917a5fabe6449adcb059501337e53/beam_client-0.2.211-py3-none-any.whl", hash = "sha256:ffa8c9bb086d85ad1bff07bf8ebde65d5e122a4df1469d1aec56598ddf44c561", size = 10935, upload-time = "2026-09-15T18:10:38.648Z" },
 ]
 
 [[package]]
@@ -421,9 +421,9 @@ dependencies = [
     { name = "websocket-client" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6a/31/03a2b8337afe63f183c0c98574e9899e2e7dc975864f740091254d9b528e/beta9-0.1.268.tar.gz", hash = "sha256:693e4f65771e40d925946f149d70eedb82baea846de351567a383b7dd11a4b96", size = 297790 }
+sdist = { url = "https://files.pythonhosted.org/packages/6a/31/03a2b8337afe63f183c0c98574e9899e2e7dc975864f740091254d9b528e/beta9-0.1.268.tar.gz", hash = "sha256:693e4f65771e40d925946f149d70eedb82baea846de351567a383b7dd11a4b96", size = 297790, upload-time = "2026-09-15T17:51:20.354Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/48/47/6e1e136205743ed283ad063a66507689582010ea18dc77684c478325c6d5/beta9-0.1.268-py3-none-any.whl", hash = "sha256:eb21e48b9ae0871449b2434b2e735024a59298ffce64953a066d9d36b8358a75", size = 318857 },
+    { url = "https://files.pythonhosted.org/packages/48/47/6e1e136205743ed283ad063a66507689582010ea18dc77684c478325c6d5/beta9-0.1.268-py3-none-any.whl", hash = "sha256:eb21e48b9ae0871449b2434b2e735024a59298ffce64953a066d9d36b8358a75", size = 318857, upload-time = "2026-09-15T17:51:18.988Z" },
 ]
 
 [[package]]
@@ -3346,17 +3346,18 @@ wheels = [
 
 [[package]]
 name = "nltk"
-version = "3.9.3"
+version = "3.10.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
+    { name = "defusedxml" },
     { name = "joblib" },
     { name = "regex" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e1/8f/915e1c12df07c70ed779d18ab83d065718a926e70d3ea33eb0cd66ffb7c0/nltk-3.9.3.tar.gz", hash = "sha256:cb5945d6424a98d694c2b9a0264519fab4363711065a46aa0ae7a2195b92e71f", size = 2923673, upload-time = "2026-02-24T12:05:53.833Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3a/cb/bbaa9be58e95d21729c6b9194376610230e0755f6de0bf38b6acc0dce079/nltk-3.10.4.tar.gz", hash = "sha256:44679f4e9220abfd496d2c8cdb22f8425ccbe557604f9aa5cacb1c44003dabc1", size = 4300570, upload-time = "2026-10-21T11:34:35.851Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c2/7e/9af5a710a1236e4772de8dfcc6af942a561327bb9f42b5b4a24d0cf100fd/nltk-3.9.3-py3-none-any.whl", hash = "sha256:60b3db6e9995b3dd976b1f0fa7dec22069b2677e759c28eb69b62ddd44870522", size = 1525385, upload-time = "2026-02-24T12:05:46.54Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/04/e7816813e409ca874ba2fcc35455db0e4130b79eb277e1f9edd270ca3c69/nltk-3.10.4-py3-none-any.whl", hash = "sha256:769ba5413f265b7d3e87cd163cc28efa01e29eeef8bb6080bc907949d9fcfb51", size = 1722994, upload-time = "2026-10-21T11:34:27.975Z" },
 ]
 
 [[package]]
